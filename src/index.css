@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme{
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+
+  --color-bg: #0a0a0a;
+  --color-surface: #111318;
+  --color-border: #1f2329;
+  --color-text: #e6e6e6;
+  --color-muted: #8b949e;
+  --color-accent: #4ade80;      /* terminal green — swap for amber/cyan if you prefer */
+  --color-accent-dim: #4ade8033;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
